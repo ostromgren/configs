@@ -74,7 +74,6 @@ alias ls='ls -G'
 alias ll='ls -l'
 alias lrt='ll -rt'
 alias reload='source ~/.zshrc'
-alias r='cd ~/repos'
 
 # --- Git ---
 # Remove every local branch not existing on remote
@@ -84,3 +83,6 @@ git_remove_dead_branches()
 }
 alias gc='git checkout'
 alias gcb='git checkout -b'
+
+# --- Local configuration ---
+source ~/.local-config.zsh
